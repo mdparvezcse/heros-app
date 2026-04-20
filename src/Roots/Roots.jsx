@@ -1,0 +1,16 @@
+import React from 'react';
+import Navbar from '../Header/Navbar';
+import Footer from '../Footer/Footer';
+import { Outlet } from 'react-router';
+
+const Roots = () => {
+    return (
+        <div>
+            <Navbar></Navbar>
+            <Outlet></Outlet>
+            <Footer></Footer>
+        </div>
+    );
+};
+
+export default Roots;
