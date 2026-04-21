@@ -1,0 +1,266 @@
+[
+    {
+        "image": "https://i.ibb.co.com/LDFX4X9z/unnamed.png",
+        "title": "Shopify",
+        "companyName": "Shopify Inc.",
+        "id": 1,
+        "description": "Shopify is a leading e-commerce platform that allows businesses of all sizes to create, customize, and manage their online stores. It provides powerful tools for product management, payment processing, order tracking, and marketing automation. With Shopify, users can easily build a professional storefront without needing advanced coding skills. It also supports third-party integrations, allowing merchants to expand functionality with apps for shipping, analytics, customer engagement, and inventory management. Shopify is widely used by entrepreneurs and large brands to scale their online business globally. Its cloud-based infrastructure ensures high performance, security, and scalability for growing businesses.",
+        "size": 120,
+        "reviews": 2450000,
+        "ratingAvg": 4.6,
+        "downloads": "50M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 50000
+            },
+            {
+                "name": "2 star",
+                "count": 80000
+            },
+            {
+                "name": "3 star",
+                "count": 200000
+            },
+            {
+                "name": "4 star",
+                "count": 900000
+            },
+            {
+                "name": "5 star",
+                "count": 1200000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/B57bkMzp/download-1.png",
+        "title": "Amazon Shopping",
+        "companyName": "Amazon Inc.",
+        "id": 2,
+        "description": "Amazon Shopping is one of the world’s largest online retail applications, offering millions of products across categories such as electronics, fashion, books, groceries, and home essentials. It provides a seamless shopping experience with features like personalized recommendations, one-click ordering, secure payment systems, and fast delivery options including Amazon Prime. Users can compare prices, read verified reviews, and track orders in real time. The app also integrates AI-based suggestions to enhance shopping convenience and discover new products based on user preferences.",
+        "size": 95,
+        "reviews": 3200000,
+        "ratingAvg": 4.5,
+        "downloads": "100M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 60000
+            },
+            {
+                "name": "2 star",
+                "count": 90000
+            },
+            {
+                "name": "3 star",
+                "count": 250000
+            },
+            {
+                "name": "4 star",
+                "count": 1100000
+            },
+            {
+                "name": "5 star",
+                "count": 1700000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/7tBRGqVR/download.jpg",
+        "title": "WhatsApp Business",
+        "companyName": "Meta Platforms Inc.",
+        "id": 3,
+        "description": "WhatsApp Business is designed for small and medium businesses to communicate effectively with their customers. It allows businesses to create a professional profile, set automated messages, and manage customer inquiries efficiently. Features include quick replies, labels for chats, product catalogs, and broadcast messaging. It helps businesses provide instant customer support, improve engagement, and build trust. With end-to-end encryption, all communications remain secure, making it a reliable tool for business communication.",
+        "size": 80,
+        "reviews": 1800000,
+        "ratingAvg": 4.4,
+        "downloads": "200M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 40000
+            },
+            {
+                "name": "2 star",
+                "count": 70000
+            },
+            {
+                "name": "3 star",
+                "count": 180000
+            },
+            {
+                "name": "4 star",
+                "count": 800000
+            },
+            {
+                "name": "5 star",
+                "count": 710000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/wfcLWL7/images.jpg",
+        "title": "Instagram",
+        "companyName": "Meta Platforms Inc.",
+        "id": 4,
+        "description": "Instagram is a popular social media platform focused on photo and video sharing. It allows users to post content, share stories, go live, and interact through likes, comments, and messages. Businesses and creators use Instagram for branding, marketing, and audience engagement. The platform includes advanced tools such as Reels for short videos, analytics for business accounts, and advertising options to reach targeted audiences. Instagram plays a key role in digital marketing and influencer culture worldwide.",
+        "size": 150,
+        "reviews": 5000000,
+        "ratingAvg": 4.3,
+        "downloads": "1000M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 120000
+            },
+            {
+                "name": "2 star",
+                "count": 200000
+            },
+            {
+                "name": "3 star",
+                "count": 600000
+            },
+            {
+                "name": "4 star",
+                "count": 2000000
+            },
+            {
+                "name": "5 star",
+                "count": 2080000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/gLG1Fr4L/download.png",
+        "title": "Slack",
+        "companyName": "Slack Technologies",
+        "id": 5,
+        "description": "Slack is a collaboration and communication tool designed for teams and organizations. It organizes conversations into channels, making it easy to manage projects and departments separately. Slack supports file sharing, voice and video calls, and integrations with tools like Google Drive, GitHub, and Trello. It enhances workplace productivity by reducing email dependency and improving real-time communication. It is widely used in tech companies and remote teams.",
+        "size": 110,
+        "reviews": 900000,
+        "ratingAvg": 4.5,
+        "downloads": "30M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 20000
+            },
+            {
+                "name": "2 star",
+                "count": 30000
+            },
+            {
+                "name": "3 star",
+                "count": 100000
+            },
+            {
+                "name": "4 star",
+                "count": 400000
+            },
+            {
+                "name": "5 star",
+                "count": 350000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/gFdSV11T/download-1.jpg",
+        "title": "Trello",
+        "companyName": "Atlassian",
+        "id": 6,
+        "description": "Trello is a project management application that uses boards, lists, and cards to help users organize tasks efficiently. It is widely used for personal productivity, team collaboration, and agile project management. Users can assign tasks, set deadlines, attach files, and track progress visually. Trello’s simple drag-and-drop interface makes it easy to manage workflows for both small and large teams. It integrates with many productivity tools for enhanced workflow automation.",
+        "size": 85,
+        "reviews": 750000,
+        "ratingAvg": 4.4,
+        "downloads": "50M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 15000
+            },
+            {
+                "name": "2 star",
+                "count": 25000
+            },
+            {
+                "name": "3 star",
+                "count": 90000
+            },
+            {
+                "name": "4 star",
+                "count": 300000
+            },
+            {
+                "name": "5 star",
+                "count": 320000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/gFd63Scg/download-2.png",
+        "title": "Spotify",
+        "companyName": "Spotify AB",
+        "id": 7,
+        "description": "Spotify is a digital music streaming platform that provides access to millions of songs, podcasts, and audio content. Users can create playlists, discover new music through recommendations, and listen offline with premium subscriptions. Spotify uses advanced algorithms to suggest personalized playlists such as Discover Weekly and Daily Mix. It is one of the most popular music streaming services globally, supporting artists and listeners through a vast digital ecosystem.",
+        "size": 130,
+        "reviews": 4100000,
+        "ratingAvg": 4.6,
+        "downloads": "800M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 80000
+            },
+            {
+                "name": "2 star",
+                "count": 120000
+            },
+            {
+                "name": "3 star",
+                "count": 300000
+            },
+            {
+                "name": "4 star",
+                "count": 1500000
+            },
+            {
+                "name": "5 star",
+                "count": 2100000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/0RNq3MF4/download-2.jpg",
+        "title": "Zoom",
+        "companyName": "Zoom Video Communications",
+        "id": 8,
+        "description": "Zoom is a video conferencing application widely used for online meetings, webinars, and remote collaboration. It provides high-quality video and audio communication with features like screen sharing, virtual backgrounds, breakout rooms, and meeting recording. Zoom became essential for remote work, online education, and business communication. It supports large-scale meetings and integrates with productivity tools to improve workflow efficiency in distributed teams.",
+        "size": 140,
+        "reviews": 2600000,
+        "ratingAvg": 4.4,
+        "downloads": "500M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 50000
+            },
+            {
+                "name": "2 star",
+                "count": 90000
+            },
+            {
+                "name": "3 star",
+                "count": 220000
+            },
+            {
+                "name": "4 star",
+                "count": 900000
+            },
+            {
+                "name": "5 star",
+                "count": 1340000
+            }
+        ]
+    }
+]

@@ -7,14 +7,22 @@ import Allapp from '../Pages/Allapp/Allapp';
 import Instullation from '../Pages/Instullation/Instullation';
 import Error from '../Pages/Error/Error';
 
+
 const router = createBrowserRouter([
-  {path: '/',
+  {
+    path: '/',
     Component: Roots,
-    errorElement: <Error></Error>,
-    children:[
-      {index: true, Component: Home},
-      {path: '/apps', Component: Allapp},
-      {path: '/instullation', Component: Instullation}
+
+    children: [
+      {
+        index: true,
+        loader: () => fetch('trending.json'),
+        Component: Home
+      },
+      { path: '/apps', Component: Allapp },
+      { path: '/instullation', Component: Instullation },
+      { path: '*', Component: Error }
+
     ]
   }
 ])
