@@ -6,6 +6,7 @@ import Home from '../Pages/Home/Home';
 import Allapp from '../Pages/Allapp/Allapp';
 import Instullation from '../Pages/Instullation/Instullation';
 import Error from '../Pages/Error/Error';
+import AppDetails from '../Pages/Allapp/Apps/AppDetails';
 
 
 const router = createBrowserRouter([
@@ -19,9 +20,18 @@ const router = createBrowserRouter([
         loader: () => fetch('trending.json'),
         Component: Home
       },
-      { path: '/apps', Component: Allapp },
+      {
+        path: '/apps',
+        loader: () => fetch('allAppsData.json'),
+        Component: Allapp
+      },
       { path: '/instullation', Component: Instullation },
-      { path: '*', Component: Error }
+      { path: '*', Component: Error },
+      {
+        path: '/appDetails/:id',
+        loader: () => fetch('allAppsData.json'),
+        Component: AppDetails
+      }
 
     ]
   }
