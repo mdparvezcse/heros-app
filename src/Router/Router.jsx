@@ -25,7 +25,12 @@ const router = createBrowserRouter([
         loader: () => fetch('allAppsData.json'),
         Component: Allapp
       },
-      { path: '/instullation', Component: Instullation },
+      { 
+        path: '/instullation',
+        // loader: () => fetch('allAppsData.json'),
+        Component: Instullation 
+      },
+      
       { path: '*', Component: Error },
       {
         path: '/appDetails/:id',

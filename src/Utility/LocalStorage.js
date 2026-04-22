@@ -12,6 +12,12 @@ const saveAppsDataLocalStore = data => {
     localStorage.setItem('apps',appStringify)
 }
 
+const removeAppLocalStore = id =>{
+    const appsData = getStoredAppsData();
+    const removeData = appsData.filter(appId => appId !== id);
+    saveAppsDataLocalStore(removeData)
+}
+
 const addAppFromLocalStore = id =>{
     const appsData = getStoredAppsData();
     if(appsData.includes(id)){
@@ -25,5 +31,6 @@ const addAppFromLocalStore = id =>{
 
 export {
     addAppFromLocalStore as addAppsData, 
-    getStoredAppsData
+    getStoredAppsData,
+    removeAppLocalStore as removeApp
 }

@@ -2,8 +2,8 @@ import React from 'react';
 
 const AllAppsBanner = ({ allApps }) => {
     return (
-        <div >
-            <div className=' text-center md:pt-15 md:pb-10'>
+        <div className='md:px-10'>
+            <div className=' text-center md:pt-15 md:pb-10 '>
                 <h3 className='font-semibold md:text-4xl'>All Our Applications</h3>
                 <p className='text-gray-600'>Explore All Apps on the Market developed by us. We code for Millions</p>
             </div>
