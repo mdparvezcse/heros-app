@@ -1,12 +1,18 @@
-import React, { use } from 'react';
+import React from 'react';
 import InstalledAppCard from './InstalledAppCard';
+import { removeApp } from '../../../Utility/LocalStorage';
 
-const InstalledApp = ({allAppsData}) => {
-    const insAppData = use(allAppsData)
+const InstalledApp = ({ allAppsData, setAllAppsData }) => {
+
+    const handleUninstallBtn = id => {
+        const result = allAppsData.filter(item => item.id !== id); 
+        setAllAppsData(result)
+        removeApp(id);
+    }
     return (
         <div>
             {
-                insAppData.map(appData => <InstalledAppCard appData={appData} key={appData.id}></InstalledAppCard>)
+                allAppsData.map(appData => <InstalledAppCard appData={appData} key={appData.id} setAllAppsData={setAllAppsData} handleUninstallBtn={handleUninstallBtn}></InstalledAppCard>)
             }
         </div>
     );

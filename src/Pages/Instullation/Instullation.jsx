@@ -18,7 +18,7 @@ const Instullation = () => {
     return (
         <div className='bg-gray-200 md:px-10'>
             <InstallBanner></InstallBanner>
-            <InstalledApp allAppsData={allAppsData}></InstalledApp>
+            <InstalledApp allAppsData={allAppsData} setAllAppsData={setAllAppsData}></InstalledApp>
         </div>
     );
 };

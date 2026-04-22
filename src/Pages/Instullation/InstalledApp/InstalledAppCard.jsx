@@ -1,11 +1,8 @@
 import React from 'react';
-import { removeApp } from '../../../Utility/LocalStorage';
 
-const InstalledAppCard = ({ appData }) => {
+const InstalledAppCard = ({ appData, handleUninstallBtn}) => {
     const {id, image, size, title, downloads, ratingAvg } = appData;
-    const handleUninstallBtn = id => {
-        removeApp(id);
-    }
+    
     return (
         <div className='flex justify-between items-center rounded shadow-md md:p-2 mb-5 bg-white'>
 
