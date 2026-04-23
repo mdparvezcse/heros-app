@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AllAppsBanner = ({ allApps }) => {
+const AllAppsBanner = ({ allApps, searchText, setSearchText}) => {
     return (
         <div className='md:px-10'>
             <div className=' text-center md:pt-15 md:pb-10 '>
@@ -23,7 +23,7 @@ const AllAppsBanner = ({ allApps }) => {
                             <path d="m21 21-4.3-4.3"></path>
                         </g>
                     </svg>
-                    <input type="search" required placeholder="Search app" />
+                    <input type="search" required placeholder="Search app" value={searchText} onChange={(e) => setSearchText(e.target.value)}/>
                 </label>
             </div>
         </div>
