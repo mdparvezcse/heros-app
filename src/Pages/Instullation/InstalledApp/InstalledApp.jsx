@@ -10,7 +10,7 @@ const InstalledApp = ({ allAppsData, setAllAppsData }) => {
         removeApp(id);
     }
     return (
-        <div>
+        <div className='mx-4 md:mx-0'>
             {
                 allAppsData.map(appData => <InstalledAppCard appData={appData} key={appData.id} setAllAppsData={setAllAppsData} handleUninstallBtn={handleUninstallBtn}></InstalledAppCard>)
             }

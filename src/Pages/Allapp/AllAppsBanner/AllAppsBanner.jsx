@@ -2,13 +2,13 @@ import React from 'react';
 
 const AllAppsBanner = ({ allApps, searchText, setSearchText}) => {
     return (
-        <div className='md:px-10'>
+        <div className='px-4 md:px-10'>
             <div className=' text-center md:pt-15 md:pb-10 '>
                 <h3 className='font-semibold md:text-4xl'>All Our Applications</h3>
                 <p className='text-gray-600'>Explore All Apps on the Market developed by us. We code for Millions</p>
             </div>
 
-            <div className='flex justify-between pb-5 items-center'>
+            <div className='md:flex md:justify-between pb-5 md:items-center text-center'>
                 <h3 className='font-bold'>({allApps.length}) Apps Found</h3>
                 <label className="input">
                     <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

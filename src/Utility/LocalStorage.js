@@ -1,3 +1,5 @@
+import { toast } from "react-toastify";
+
 const getStoredAppsData = () =>{
  const storedStringData = localStorage.getItem('apps');
  if(storedStringData){
@@ -21,7 +23,7 @@ const removeAppLocalStore = id =>{
 const addAppFromLocalStore = id =>{
     const appsData = getStoredAppsData();
     if(appsData.includes(id)){
-        alert('already exist')
+        toast.warn("already exist this app")
     }
     else{
         const newAppData = [...appsData, id]

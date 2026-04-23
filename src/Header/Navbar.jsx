@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router';
 import './navbar.css';
-
+import logo from '../assets/logo.png'
 
 const Navbar = () => {
     const links = (
@@ -21,12 +21,12 @@ const Navbar = () => {
                     <ul
                         tabIndex="-1"
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                       {
-                        links
-                       }
+                        {
+                            links
+                        }
                     </ul>
                 </div>
-                <NavLink to='/' className='text-black font-bold'>Hero-App</NavLink>
+                <NavLink to='/' className='text-black font-bold flex items-center'><img className='w-4 h-4 md:w-7 md:h-7' src={logo} alt="" />Hero-App</NavLink>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -36,7 +36,8 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href="https://github.com/mdparvezcse" target='blank'>Profile</a>
+                <button className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white font font-semibold"> <a href="https://github.com/mdparvezcse" target='blank'>Contribute</a>
+                </button>
             </div>
         </div>
     );

@@ -5,8 +5,8 @@ const TopApp = ({ topAppData }) => {
     const {id, image, title, downloads, ratingAvg } = topAppData;
     return (
         <NavLink to={`/appDetails/${id}`}>
-            <div className='border-none bg-white p-4 shadow-md rounded-xl mb-4 md:mb-0'>
-                <img src={image} alt="" className='md:w-70 md:h-60 p-4 rounded-2xl' />
+            <div className='border-none bg-white p-4 shadow-md rounded-xl mb-4 md:mb-4 mx-4 md:mx-0'>
+                <img src={image} alt="" className='mx-auto h-60 md:w-70 md:h-60 md:p-4 rounded-2xl' />
                 <h1>{title}</h1>
                 <div className='flex justify-between'>
                     <h1>{downloads}</h1>

@@ -4,13 +4,13 @@ const InstalledAppCard = ({ appData, handleUninstallBtn}) => {
     const {id, image, size, title, downloads, ratingAvg } = appData;
     
     return (
-        <div className='flex justify-between items-center rounded shadow-md md:p-2 mb-5 bg-white'>
+        <div className='flex justify-between items-center rounded shadow-md p-1 md:p-2 mb-5 bg-white'>
 
-            <div className='md:gap-6 flex items-center'>
-                <img className='w-20 h-20' src={image} alt="" />
+            <div className='gap-4 md:gap-6 flex items-center'>
+                <img className='w-15 h-15 md:w-20 md:h-20' src={image} alt="" />
                 <div>
                     <h1 className='font-bold'>{title}</h1>
-                    <div className='flex md:gap-5'>
+                    <div className='flex gap-3 md:gap-5'>
                         <p>{downloads}</p>
                         <p>{ratingAvg}</p>
                         <p>{size}</p>

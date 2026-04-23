@@ -3,7 +3,7 @@ import { BarChart, Bar, Tooltip, XAxis, YAxis, ResponsiveContainer } from 'recha
 
 const Chart = ({ details }) => {
     return (
-        <ResponsiveContainer width="100%" height={400}>
+        <ResponsiveContainer className='px-4' width="100%" height={300} md:height={400}>
             <BarChart
                 layout="vertical"
                 data={details?.ratings}

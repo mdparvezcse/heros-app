@@ -18,11 +18,11 @@ const Details = ({ details }) => {
     }
 
     return (
-        <div className='md:flex md:gap-6' >
-            <div className='flex-1/4'>
-                <img className='h-full' src={image} alt="" />
+        <div className='md:flex md:gap-6 p-4 md:p-0' >
+            <div className='md:flex-1/4'>
+                <img className='md:h-full' src={image} alt="" />
             </div>
-            <div className='flex-3/4'>
+            <div className='md:flex-3/4'>
                 <h1 className='font-semibold text-4xl'>{title}</h1>
                 <h2 className='font-semibold'>Developed By{companyName}</h2>
                 <hr className='my-2 md:my-4 text-gray-300' />

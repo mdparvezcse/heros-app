@@ -15,7 +15,7 @@ const InstallBanner = ({allAppsData, setAllAppsData}) => {
         }
     }
     return (
-        <div >
+        <div className='px-4 md:px-0'>
             <div className=' text-center md:pt-15 md:pb-10'>
                 <h3 className='font-semibold md:text-4xl'>Your Installed Apps</h3>
                 <p className='text-gray-600'>Explore All Trending Apps on the Market developed by us</p>
